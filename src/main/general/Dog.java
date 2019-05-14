@@ -1,8 +1,8 @@
 package main.general;
 
-import main.interfaces.Animal;
+import main.interfaces.Dogable;
 
-public class Dog implements Animal {
+public class Dog implements Dogable {
 
     private int weight;
     private String name;

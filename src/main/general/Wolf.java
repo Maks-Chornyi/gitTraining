@@ -1,14 +1,11 @@
 package main.general;
 
-import main.interfaces.Animal;
+import main.interfaces.Dogable;
+import main.interfaces.StaticData;
 
-public class Wolf implements Animal {
-    @Override
-    public void voice() {
-        System.out.println("Ahhoooo");
-    }
+public class Wolf implements Dogable {
 
-    public void makeWaf() {
-        System.out.println();
+    public void makeAwhooo() {
+        System.out.println("Awhooo" + StaticData.COUNT_OF_MONTHS);
     }
 }
