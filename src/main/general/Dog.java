@@ -1,5 +1,7 @@
 package main.general;
 
+import main.interfaces.Animal;
+
 public class Dog implements Animal {
 
     private int weight;

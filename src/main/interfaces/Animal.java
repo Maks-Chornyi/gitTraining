@@ -1,4 +1,4 @@
-package main.general;
+package main.interfaces;
 
 public interface Animal {
 

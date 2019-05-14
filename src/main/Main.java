@@ -1,6 +1,6 @@
 package main;
 
-import main.general.Animal;
+import main.interfaces.Animal;
 import main.general.Cat;
 import main.general.Dog;
 
